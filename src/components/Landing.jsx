@@ -1,7 +1,7 @@
 import{ Link } from 'react-router-dom';
 import Footer from './Footer';
 import Header from './Header';
-
+import image from '../assets/image.png';
 
 function Landing() {
   return (
@@ -28,7 +28,7 @@ function Landing() {
             alt="Screenshot"
             className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
             height="340"
-            src = "src\assets\image.png"
+            src={image}
             width="600"
           />
         </div>
